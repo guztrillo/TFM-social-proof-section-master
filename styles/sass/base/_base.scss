@@ -16,7 +16,7 @@ body {
      background-size: auto, 85%;
 }
 
-@media (max-width: 540px) {
+@media (max-width: 33.75rem) {
      body {
           background-image: url('/images/bg-pattern-top-mobile.svg'), url('/images/bg-pattern-bottom-mobile.svg');
           background-position: top left, bottom -15vh left;

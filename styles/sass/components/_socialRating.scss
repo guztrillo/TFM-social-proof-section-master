@@ -41,12 +41,13 @@
      justify-self: end;
 }
 
-@media (max-width: 1240px) {
+@media (max-width: 77.5rem) {
      .social-review {
           grid-template-rows: auto auto;
           grid-template-columns: 1fr;
           justify-items: center;
           row-gap: 1rem;
+          text-align: center;
      }
      .rating-1, .rating-2, .rating-3 {
           justify-self: center;

@@ -15,7 +15,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Order summary card](https://guztrillo.github.io/TFM-order-summary-component-main/)
+- Live Site URL: [Social proof section](https://guztrillo.github.io/TFM-social-proof-section-master/)
 
 ## My process
 

@@ -27,3 +27,13 @@ strong {
      color: $light-grayish-magenta;
      font-weight: 500;
 }
+
+.social-heading h1 {
+     font-size: 3rem;
+}
+
+@media (max-width: 33.75rem) {
+     .social-heading h1 {
+          font-size: 2.5rem;
+     }
+}
