@@ -1,0 +1,61 @@
+.social-pic-container {
+     width: 60%;
+}
+
+.social-buyer-pic {
+     border-radius: 50%;
+     max-height: 50%;
+     object-fit: contain;
+     width: 100%;
+}
+
+.social-buyers {
+     display: grid;
+     font-size: 0.85rem;
+     gap: 1rem 2rem;
+     grid-template-columns: repeat(auto-fit, minmax(auto, 22.5rem));
+     justify-content: space-between;
+     min-height: 19rem;
+     padding-top: 1rem;
+}
+
+.buyer-1 {
+     align-self: start;
+}
+
+.buyer-2 {
+     align-self: center;
+}
+
+.buyer-3 {
+     align-self: end;
+}
+
+.social-buyer {
+     background-color: $very-dark-magenta;
+     border-radius: 0.625rem;
+     display: grid;
+     gap: 1.5rem;
+     grid: repeat(2,auto) / 1fr;
+     padding: 2rem 1.5rem;
+}
+
+.social-buyer header {
+     align-items: center;
+     display: grid;
+     grid: 1fr / repeat(2, max-content);
+}
+
+.social-comment {
+     line-height: 1.7;
+}
+
+@media (max-width: 1240px) {
+     .social-buyers {
+          grid-template-columns: 1fr;
+          grid-template-rows: repeat(3, auto);
+          justify-items: center;
+          padding-top: 0;
+     }
+}
+

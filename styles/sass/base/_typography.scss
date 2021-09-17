@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+
+body {
+     font-family: 'Spartan', sans-serif;
+     font-size: 1rem;
+}
+
+.social-heading h1, .social-review a{
+     color: $very-dark-magenta;
+     font-weight: 700;
+}
+.social-heading p {
+     color: $dark-grayish-magenta;
+}
+.social-buyer-name {
+     color: $light-grayish-magenta;
+     font-weight: 700;
+}
+
+strong {
+     color: $soft-pink;
+     font-weight: 400;
+}
+
+.social-comment {
+     color: $light-grayish-magenta;
+     font-weight: 500;
+}

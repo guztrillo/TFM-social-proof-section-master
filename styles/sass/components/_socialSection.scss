@@ -1,0 +1,56 @@
+
+.social-section {
+     display: grid;
+     padding: 2rem;
+     place-content: center;
+     min-height: 100vh;
+}
+
+.social-review a {
+     text-decoration: none;
+}
+
+.social-resume {
+     display: grid;
+     gap: 1rem;
+     grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+     padding-bottom: 3rem;
+}
+
+.social-heading h1 {
+     font-size: 3rem;
+     max-width: 90%;
+     padding-bottom: 0.75rem;
+}
+
+.social-heading p {
+     line-height: 1.7;
+     max-width: 90%;
+}
+
+
+@media (max-width: 1240px) {
+     .social-section {
+          padding: 5rem 2rem;
+     }
+     .social-resume {
+          grid-template-columns: auto; 
+     }
+
+     .social-heading p, .social-heading h1 {
+          max-width: 100%;
+          text-align: center;
+     }
+
+     .social-heading p {
+          padding-bottom: 2rem;
+     }
+
+     .social-resume, .social-buyer {
+          max-width: 40rem;
+     }
+}
+
+
+
+
